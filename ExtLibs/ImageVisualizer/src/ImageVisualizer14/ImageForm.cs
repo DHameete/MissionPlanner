@@ -105,7 +105,7 @@ namespace Aberus.VisualStudio.Debugger.ImageVisualizer
                 }
                 else if (objectBitmap is SerializableBitmapImage serializableBitmapImage)
                 {
-                    bitmapSource = serializableBitmapImage;
+                    bitmapSource = BitmapFrame.Create(new MemoryStream(serializableBitmapImage));
                 }
 
                 if (bitmapSource != null)
