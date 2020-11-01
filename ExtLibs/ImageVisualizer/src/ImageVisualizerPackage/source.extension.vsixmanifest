@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="2443c97f-77f2-47ea-b473-7f34852b2f86" Version="0.1" Language="en-US" Publisher="Michael Oborne" />
+        <Identity Id="2443c97f-77f2-47ea-b473-7f34852b2f86" Version="0.1.1" Language="en-US" Publisher="Michael Oborne" />
         <DisplayName>Debugger Image Visualizer Skia</DisplayName>
         <Description xml:space="preserve">A debug visualizer for Visual Studio that allows you to visually view the graphic content of images during debugging.</Description>
         <Icon>Logo_128x.png</Icon>

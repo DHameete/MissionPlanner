@@ -55,6 +55,7 @@ namespace Aberus.VisualStudio.Debugger.ImageVisualizer
         static void Main(string[] args)
         {
             var image5 = new SKBitmap(1280, 720);
+            image5.SetPixel(5, 5, SKColors.Red);
             ImageVisualizer.TestShowVisualizer(image5);
         }
     }
